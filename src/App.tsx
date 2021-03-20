@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 
@@ -12,6 +11,7 @@ const App = (): JSX.Element => {
     <BrowserRouter>
       <CartProvider>
         <GlobalStyles />
+
         <Header />
         <Routes />
         <ToastContainer autoClose={3000} />
